@@ -1,0 +1,1 @@
+print("welcome to firstbit solution")
