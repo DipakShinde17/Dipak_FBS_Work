@@ -3,7 +3,6 @@
 li = [1,2,3,4,5,6]
 new_list = []
 
-new_list.append(li)
-print(id(new_list))
-print("new list is :",new_list)
-print(id(li))
+for i in li:
+    new_list.append(i)
+print(new_list)
